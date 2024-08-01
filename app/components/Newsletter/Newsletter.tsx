@@ -16,7 +16,7 @@ const Newsletter = () => {
                             </Fade>
                             <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                                 <h3 className="text-3xl md:text-5xl font-semibold text-white mb-8">
-                                    Subscribe our <br /> newsletter.
+                                    Se increva e receba <br /> novidades.
                                 </h3>
                             </Fade>
 

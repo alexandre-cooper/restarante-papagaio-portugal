@@ -22,18 +22,18 @@ const Cook = () => {
 
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-pink text-lg font-normal mb-3 ls-51 uppercase text-start'>cook with us</h2>
+                            <h2 className='text-pink text-lg font-normal mb-3 ls-51 uppercase text-start'>Feito com carinho</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black text-start">
-                                Cooking together with the expert.
+                                Comida cuidadosamente preparada para voce 
                             </h3>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
-                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem </p>
-                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium....</p>
+                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>O Restaurante Papagaio, situado no coração da encantadora cidade do Porto, é um verdadeiro tesouro para os amantes da gastronomia local. Com uma decoração acolhedora e um ambiente familiar, este estabelecimento se destaca pela qualidade excepcional de seus pratos, preparados com ingredientes frescos e tradicionais. </p>
+                            <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>O menu oferece uma seleção irresistível de iguarias típicas do Porto, como a famosa Francesinha, o Bacalhau à Gomes de Sá e as Tripas à Moda do Porto, todas confeccionadas com maestria pelos talentosos chefs da casa. O Restaurante Papagaio não só satisfaz o paladar, mas também proporciona uma autêntica experiência cultural e culinária, celebrando as ricas tradições da cidade invicta.</p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6'>Learn more</button>
+                                <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6'>Ver mais</button>
                             </div>
                         </Fade>
                     </div>
