@@ -76,7 +76,6 @@ export default class MultipleItems extends Component {
                             </h3>
                         </Fade>
                     </div>
-                    
                 </div>
                 <div className="flex flex-col gap-6 md:gap-8 max-w-7xl mx-auto mt-28 mb-8 justify-center items-center w-full">
                 <iframe
