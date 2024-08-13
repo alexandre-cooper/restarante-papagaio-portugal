@@ -35,7 +35,7 @@ const Gallery = () => {
           <div className="col-span-6 flex justify-center overflow-hidden rounded-3xl">
             <Image
               src="/images/Gallery/francesinha.png"
-              alt="pizza-one"
+              alt="francesinha"
               width={1000}
               height={805}
               className="inner-img"
@@ -46,8 +46,8 @@ const Gallery = () => {
             <div className="grid grid-rows-1 grid-flow-row gap-4">
               <div className="row-span-1 overflow-hidden rounded-3xl">
                 <Image
-                  src="/images/Gallery/foodTwo.jpg"
-                  alt="pizza-two"
+                  src="/images/Gallery/gambas.jpg"
+                  alt="gambas"
                   width={700}
                   height={405}
                   className="inner-img"
@@ -56,8 +56,8 @@ const Gallery = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="overflow-hidden rounded-3xl">
                   <Image
-                    src="/images/Gallery/foodThree.jpg"
-                    alt="pizza-three"
+                    src="/images/Gallery/tripas.jpg"
+                    alt="tripas"
                     width={500}
                     height={405}
                     className="inner-img"
@@ -66,7 +66,7 @@ const Gallery = () => {
                 <div className="overflow-hidden rounded-3xl">
                   <Image
                     src="/images/Gallery/bife.jpg"
-                    alt="pizza-four"
+                    alt="bife"
                     width={500}
                     height={405}
                     className="inner-img"
