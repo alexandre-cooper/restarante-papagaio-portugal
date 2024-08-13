@@ -57,20 +57,18 @@ const footer = () => {
 
         <div className="sm:col-span-6 lg:col-span-5">
           <div className="flex flex-shrink-0 items-center border-right">
-            <Image
-              src="/images/Logo/Logo.svg"
-              alt="logo"
-              width={56}
-              height={56}
-            />
             <Link href="/" className="text-2xl font-semibold text-black ml-4">
-              Restaurante&apos;Papagaio.
+              <Image
+                src="/images/Logo/logo-full.png"
+                alt="logo"
+                width={200}
+                height={107}
+              />
             </Link>
           </div>
           <h3 className="text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16">
             {" "}
-            Open an account in minutes, get full financial <br /> control for
-            much longer.
+            Siga-nós
           </h3>
           <div className="flex gap-4">
             {socialLinks.map((items, i) => (
