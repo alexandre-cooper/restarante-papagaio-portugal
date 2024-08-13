@@ -91,7 +91,7 @@ const Navbar = () => {
                     width={19}
                     height={19}
                   />
-                  <p className="text-lg font-medium">+351 22 084 855</p>
+                  <p className="text-lg font-medium">+351 222 084 855</p>
                 </div>
                 {/* <button className='flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-black'>Sign in</button> */}
                 <Signindialog />

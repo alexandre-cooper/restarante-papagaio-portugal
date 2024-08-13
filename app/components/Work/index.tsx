@@ -32,9 +32,9 @@ const cardData: cardDataType[] = [
     link: "Ver cardápio",
   },
   {
-    imgSrc: "/images/Features/featureFour.svg",
-    heading: "Fast food",
-    subheading: "Sed ut perspiciatis unde omnis iste natus error",
+    imgSrc: "/images/Features/featureFour.png",
+    heading: "Ambiente",
+    subheading: "Ambiente familiar que encanta e faz você se sentir em casa.",
     link: "Ver cardápio",
   },
 ];

@@ -16,17 +16,12 @@ interface socialLinks {
 const socialLinks: socialLinks[] = [
   {
     imgSrc: "/images/Footer/facebook.svg",
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/share/wYZGya3BGJcPak13/?mibextid=LQQJ4d",
     width: 10,
   },
   {
     imgSrc: "/images/Footer/insta.svg",
-    link: "https://instagram.com",
-    width: 14,
-  },
-  {
-    imgSrc: "/images/Footer/twitter.svg",
-    link: "https://twitter.com",
+    link: "https://www.instagram.com/restaurantechurraqueirapapagio?igsh=ODMwcWwzbHlkYWV0",
     width: 14,
   },
 ];
