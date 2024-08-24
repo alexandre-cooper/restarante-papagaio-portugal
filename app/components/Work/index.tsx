@@ -64,7 +64,7 @@ const Work = () => {
           >
             <p className="text-3xl lg:text-5xl font-semibold text-lightgrey">
               Estamos empenhados <br />
-              entregar:
+              em entregar:
             </p>
           </Fade>
         </div>
