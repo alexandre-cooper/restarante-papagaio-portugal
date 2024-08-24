@@ -19,7 +19,7 @@ module.exports = {
       lightpink: "#F8F7F7",
       pink: "#ffc700",
       bgpink: "rgba(223, 103, 81, 0.15)",
-      darkpink: "#FEEDEA",
+      darkpink: "#dfdfdf",
       lightblack: "#333333",
       textbl: "#363636",
       footerlinks: "rgba(54, 54, 54, 0.9)",

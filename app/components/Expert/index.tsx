@@ -70,7 +70,7 @@ export default class MultipleItems extends Component {
               damping={1e-1}
               triggerOnce={true}
             >
-              <h2 className="text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51">
+              <h2 className="text-black text-lg font-normal mb-3 tracking-widest uppercase ls-51">
                 Onde nos estamos?
               </h2>
             </Fade>

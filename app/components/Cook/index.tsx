@@ -8,7 +8,7 @@ const Cook = () => {
       <div className="mx-auto max-w-7xl lg:pt-20 sm:pb-24 px-6">
         <div className="absolute right-0 bottom-[-18%] hidden lg:block">
           <Image
-            src={"/images/Cook/burger.png"}
+            src={"/images/Cook/fische.png"}
             alt="burger-image"
             width={463}
             height={622}
@@ -34,7 +34,7 @@ const Cook = () => {
               triggerOnce={true}
             >
               <h2 className="text-pink text-lg font-normal mb-3 ls-51 uppercase text-start">
-                Feita com carinho
+                Quem somos?
               </h2>
             </Fade>
             <Fade
@@ -45,7 +45,7 @@ const Cook = () => {
               triggerOnce={true}
             >
               <h3 className="text-3xl lg:text-5xl font-semibold text-black text-start">
-                Cuidadosamente preparada para Você!
+                Um pouco da nossa história
               </h3>
             </Fade>
             <Fade
