@@ -93,14 +93,6 @@ const Work = () => {
                 <p className="text-lg font-normal text-black text-center text-opacity-50 mt-2">
                   {items.subheading}
                 </p>
-                <div className="flex items-center justify-center">
-                  <Link href="/">
-                    <p className="text-center text-lg font-medium text-pink mt-2 hover-underline">
-                      {items.link}
-                      <ChevronRightIcon width={20} height={20} />
-                    </p>
-                  </Link>
-                </div>
               </div>
             ))}
           </Fade>

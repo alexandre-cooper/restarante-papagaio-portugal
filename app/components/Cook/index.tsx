@@ -64,12 +64,12 @@ const Cook = () => {
               </p>
               <p className="text-grey md:text-lg font-normal mb-10 text-start mt-1">
                 O menu oferece uma seleção irresistível de iguarias típicas do
-                Porto, como a famosa Francesinha, o Bacalhau à Gomes de Sá e as
-                Tripas à Moda do Porto, todas confeccionadas com maestria pelos
-                talentosos chefs da casa. O Restaurante Papagaio não só satisfaz
-                o paladar, mas também proporciona uma autêntica experiência
-                cultural e culinária, celebrando as ricas tradições da cidade
-                invicta.
+                Porto, como a famosa Francesinha, o Bacalhau na brasa, á moda da
+                casa, com natas e as Tripas à Moda do Porto, picanha na brasa,
+                todas confeccionadas com maestria pelos talentosos chefs da
+                casa. O Restaurante Papagaio não só satisfaz o paladar, mas
+                também proporciona uma autêntica experiência cultural e
+                culinária, celebrando as ricas tradições da cidade invicta.
               </p>
               <div className="flex align-middle justify-center md:justify-start">
                 <button className="text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6">
