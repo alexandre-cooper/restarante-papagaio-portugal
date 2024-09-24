@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
-
+import Link from "next/link";
 const Cook = () => {
   return (
     <div className="relative" id="cook-section">
@@ -57,23 +57,25 @@ const Cook = () => {
             >
               <p className="text-grey md:text-lg font-normal mb-10 text-start mt-2">
                 O Restaurante Papagaio, situado no coração da encantadora cidade
-                do Porto, é um verdadeiro tesouro para os amantes da gastronomia
-                local. Com uma decoração acolhedora e um ambiente familiar, este
-                estabelecimento se destaca pela qualidade excepcional de seus
-                pratos, preparados com ingredientes frescos e tradicionais.{" "}
+                do Porto e ao lado da igreja do Carmo, é um verdadeiro tesouro
+                para os amantes da gastronomia local. Com uma decoração
+                acolhedora e um ambiente familiar, este estabelecimento se
+                destaca pela qualidade excepcional de seus pratos, preparados
+                com ingredientes frescos e tradicionais.{" "}
               </p>
               <p className="text-grey md:text-lg font-normal mb-10 text-start mt-1">
                 O menu oferece uma seleção irresistível de iguarias típicas do
-                Porto, como a famosa Francesinha, o Bacalhau na brasa, á moda da
-                casa, com natas e as Tripas à Moda do Porto, picanha na brasa,
-                todas confeccionadas com maestria pelos talentosos chefs da
-                casa. O Restaurante Papagaio não só satisfaz o paladar, mas
-                também proporciona uma autêntica experiência cultural e
-                culinária, celebrando as ricas tradições da cidade invicta.
+                Porto, como a famosa Francesinha, o Bacalhau na brasa, Bacalhau
+                á moda da casa, Bacalhau com natas e as Tripas à Moda do Porto,
+                picanha na brasa entre outras, todas confeccionadas com maestria
+                pelos talentosos chefs da casa. O Restaurante Papagaio não só
+                satisfaz o paladar, mas também proporciona uma autêntica
+                experiência cultural e culinária, celebrando as ricas tradições
+                da cidade invicta.
               </p>
               <div className="flex align-middle justify-center md:justify-start">
                 <button className="text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6">
-                  Ver mais
+                  <Link href="/menu">Ver mais</Link>
                 </button>
               </div>
             </Fade>
