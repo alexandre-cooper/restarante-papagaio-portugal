@@ -327,7 +327,7 @@ const Menu = () => {
         </Fade>
 
         {/* Filtro de Categorias */}
-        <div className="flex justify-center space-x-4 my-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
           {categories.map((category) => (
             <button
               key={category}
