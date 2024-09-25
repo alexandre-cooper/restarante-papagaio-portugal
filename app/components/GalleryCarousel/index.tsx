@@ -13,7 +13,7 @@ const ImageCarousel = () => {
     <div className="my-16 px-6">
       <Swiper
         autoplay={{
-          delay: 500,
+          delay: 1000,
         }}
         modules={[Navigation, Autoplay]}
       >
