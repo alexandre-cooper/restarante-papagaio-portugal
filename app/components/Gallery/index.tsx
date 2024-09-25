@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import ImageCarousel from "../GalleryCarousel";
 
 const Gallery = () => {
   return (
@@ -121,6 +122,10 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+        <h3 className="text-3xl lg:text-5xl font-semibold text-black">
+          Sobremesas
+        </h3>
+        <ImageCarousel />
       </div>
     </div>
   );
