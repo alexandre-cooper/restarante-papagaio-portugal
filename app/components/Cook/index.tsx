@@ -65,9 +65,9 @@ const Cook = () => {
               </p>
               <p className="text-grey md:text-lg font-normal mb-10 text-start mt-1">
                 O menu oferece uma seleção irresistível de iguarias típicas do
-                Porto, como a famosa Francesinha, o Bacalhau na brasa, Bacalhau
-                á moda da casa, Bacalhau com natas e as Tripas à Moda do Porto,
-                picanha na brasa entre outras, todas confeccionadas com maestria
+                Porto, como a famosa Francesinha, o Bacalhau na Brasa, Bacalhau
+                á moda da Casa, Bacalhau com Natas e as Tripas à Moda do Porto,
+                Picanha na Brasa entre outras, todas confeccionadas com maestria
                 pelos talentosos chefs da casa. O Restaurante Papagaio não só
                 satisfaz o paladar, mas também proporciona uma autêntica
                 experiência cultural e culinária, celebrando as ricas tradições

@@ -116,8 +116,15 @@ const Gallery = () => {
                     width={500}
                     height={405}
                     className="inner-img"
-                  />
+                  />{" "}
                 </div>
+                <Image
+                  src="/images/Gallery/travessa-gambas.png"
+                  alt="gambas"
+                  width={300}
+                  height={405}
+                  className="inner-img"
+                />
               </div>
             </div>
           </div>
