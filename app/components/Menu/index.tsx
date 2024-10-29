@@ -7,12 +7,6 @@ const Menu = () => {
   const items = [
     // Churrasco
     {
-      id: 1,
-      name: "Picanha na Brasa",
-      description: "Deliciosa carne grelhada na brasa.",
-      category: "Churrasco",
-    },
-    {
       id: 2,
       name: "Posta de Vitela na brasa à Papagaio c/ Arroz e Batata Frita",
       description: "Deliciosa carne grelhada na brasa.",
@@ -33,7 +27,7 @@ const Menu = () => {
     {
       id: 5,
       name: "Frango na brasa c/ arroz e batata frita",
-      description: "Deliciosa carne grelhada na brasa.",
+      description: "Delicioso frango grelhado na brasa.",
       category: "Churrasco",
     },
     {
@@ -51,7 +45,7 @@ const Menu = () => {
     {
       id: 8,
       name: "Francesinha à Papagaio",
-      description: "Deliciosa carne grelhada na brasa.",
+      description: "Com batata frita.",
       category: "Churrasco",
     },
 
@@ -65,7 +59,7 @@ const Menu = () => {
     {
       id: 10,
       name: "Rojões à Moda do Minho",
-      description: "Prato tradicional de feijão e tripas.",
+      description: "Prato tradicional de rojões de porco e tripa.",
       category: "Cozinha tradicional",
     },
     {
@@ -97,19 +91,19 @@ const Menu = () => {
     {
       id: 43,
       name: "Carapauzinhos fritos c/ arroz tomate",
-      description: "Bacalhau desfiado com ovos e batata frita.",
+      description: "Carapauzinhos fritos com arroz e tomate.",
       category: "Peixe",
     },
     {
       id: 44,
-      name: "Sardinha frita c/arroz de feijão",
-      description: "Bacalhau desfiado com ovos e batata frita.",
+      name: "Sardinha frita c/arroz de feijão.",
+      description: "Sardinha frita c/arroz de feijão.",
       category: "Peixe",
     },
     {
       id: 16,
       name: "Pataniscas de Bacalhau c/ arroz e feijão",
-      description: "Bolinhos de bacalhau fritos com arroz e feijão.",
+      description: "Pataniscas de Bacalhau c/ arroz e feijão",
       category: "Peixe",
     },
     {
@@ -127,19 +121,19 @@ const Menu = () => {
     {
       id: 19,
       name: "Espetada de Gambas e Lulas c/ Batata Cozida e Legumes",
-      description: "Espetada de marisco com acompanhamento.",
+      description: "Espetada de Gambas e Lulas.",
       category: "Peixe",
     },
     {
       id: 47,
       name: "Espetada de Gambas e Lulas c/ Batata frita e salada",
-      description: "Espetada de marisco com acompanhamento.",
+      description: "Espetada de Gambas e Lulas",
       category: "Peixe",
     },
     {
       id: 48,
       name: "Espetada de Lulas c/ Batata cozida e molho verde",
-      description: "Espetada de marisco com acompanhamento.",
+      description: "Espetada de Lulas.",
       category: "Peixe",
     },
     {
@@ -151,13 +145,13 @@ const Menu = () => {
     {
       id: 21,
       name: "Bacalhau Assado na Brasa c/ Batata Cozida e Pimentos",
-      description: "Bacalhau grelhado na brasa com batata e pimentos.",
+      description: "Bacalhau grelhado na brasa com batata cozida e pimentos.",
       category: "Peixe",
     },
     {
       id: 22,
       name: "Bacalhau c/ Natas",
-      description: "Bacalhau ao forno com natas.",
+      description: "Bacalhau desfiado ao forno com natas.",
       category: "Peixe",
     },
     {
@@ -182,8 +176,8 @@ const Menu = () => {
     },
     {
       id: 26,
-      name: "Papas de Sarrabulho",
-      description: "Sopa espessa tradicional com carne de porco.",
+      name: "Pápas de Sarrabulho",
+      description: "Pápas  tradicional portuguesa.",
       category: "Sopa",
     },
 
@@ -191,13 +185,13 @@ const Menu = () => {
     {
       id: 27,
       name: "Lasanha Vegetariana",
-      description: "Lasanha de vegetais com molho de tomate.",
+      description: "Lasanha de vegetais.",
       category: "Vegan",
     },
     {
       id: 50,
       name: "Lasanha de Salmão",
-      description: "Lasanha de vegetais com molho de tomate.",
+      description: "Lasanha de Salmão",
       category: "Vegan",
     },
 
@@ -205,7 +199,7 @@ const Menu = () => {
     {
       id: 28,
       name: "½ kg Gambas ao Natural",
-      description: "Gambas frescas cozidas.",
+      description: "Gambas ao natural.",
       category: "Gambas",
     },
     {
@@ -237,7 +231,7 @@ const Menu = () => {
     {
       id: 33,
       name: "Cheesecake",
-      description: "Sobremesa de queijo cremoso com base de biscoito.",
+      description: "Sobremesa de queijo cremoso.",
       category: "Sobremesa",
     },
     {
@@ -255,7 +249,7 @@ const Menu = () => {
     {
       id: 36,
       name: "Bolo de Bolacha",
-      description: "Sobremesa gelada com camadas de bolacha e creme.",
+      description: "Sobremesa com camadas de bolacha.",
       category: "Sobremesa",
     },
 
@@ -269,13 +263,13 @@ const Menu = () => {
     {
       id: 38,
       name: "Maçã",
-      description: "Fruta fresca e crocante.",
+      description: "Maçã",
       category: "Frutas",
     },
     {
       id: 39,
       name: "Kiwi",
-      description: "Fruta tropical com sabor refrescante.",
+      description: "Kiwi",
       category: "Frutas",
     },
     {
@@ -321,6 +315,10 @@ const Menu = () => {
           damping={1e-1}
           triggerOnce={true}
         >
+          <h1>
+            Oferecemos um menu semanal, e um menu no final de semana, entre em
+            contato para saber mais.
+          </h1>
           <h3 className="text-3xl lg:text-5xl font-semibold text-black text-center my-6">
             Menu
           </h3>

@@ -27,7 +27,7 @@ const Gallery = () => {
             triggerOnce={true}
           >
             <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-              Aguns de nossos principais pratos.
+              Alguns de nossos principais pratos.
             </h3>
           </Fade>
         </div>

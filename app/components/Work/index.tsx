@@ -15,7 +15,7 @@ const cardData: cardDataType[] = [
   {
     imgSrc: "/images/Features/featureOne.svg",
     heading: "Cardápio Variado",
-    subheading: "Oefrecemos uma vasta quantidade de opções para você.",
+    subheading: "Oferecemos uma vasta quantidade de opções para você.",
     link: "Ver cardápio",
   },
   {
@@ -64,7 +64,7 @@ const Work = () => {
           >
             <p className="text-3xl lg:text-5xl font-semibold text-lightgrey">
               Estamos empenhados <br />
-              em entregar:
+              em o servir:
             </p>
           </Fade>
         </div>

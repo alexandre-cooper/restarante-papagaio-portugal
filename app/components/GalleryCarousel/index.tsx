@@ -10,10 +10,11 @@ import "swiper/css/autoplay";
 
 const ImageCarousel = () => {
   return (
-    <div className="my-16 px-6">
+    <div className="my-16 px-6 flex items-center justify-center">
       <Swiper
+        className="flex items-center justify-center"
         autoplay={{
-          delay: 1000,
+          delay: 2000,
         }}
         modules={[Navigation, Autoplay]}
       >
@@ -27,7 +28,7 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">Musse</h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="flex justify-center overflow-hidden rounded-full w-64 h-64">
@@ -39,7 +40,9 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">
+            Musse de Chocolate
+          </h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="flex justify-center overflow-hidden rounded-full w-64 h-64">
@@ -63,7 +66,7 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">Natas do céu</h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="flex justify-center overflow-hidden rounded-full w-64 h-64">
@@ -89,7 +92,7 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">Laranja</h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="flex justify-center overflow-hidden rounded-full w-64 h-64">
@@ -101,7 +104,7 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">Maçã</h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="flex justify-center overflow-hidden rounded-full w-64 h-64">
@@ -113,7 +116,7 @@ const ImageCarousel = () => {
               className="inner-img object-cover"
             />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+          <h1 className="text-4xl font-bold text-gray-800">Bolo de bolacha</h1>
         </SwiperSlide>
         <SwiperSlide className="flex items-center justify-center space-x-4">
           <div className="overflow-hidden rounded-full w-64 h-64">
@@ -126,6 +129,18 @@ const ImageCarousel = () => {
             />
           </div>
           <h1 className="text-4xl font-bold text-gray-800">Cheesecake</h1>
+        </SwiperSlide>
+        <SwiperSlide className="flex items-center justify-center space-x-4">
+          <div className="overflow-hidden rounded-full w-64 h-64">
+            <Image
+              src="/images/Sobremesa/sobremesa-9.png"
+              alt="cheesecake"
+              width={256}
+              height={256}
+              className="inner-img object-cover"
+            />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-800">Abacaxi</h1>
         </SwiperSlide>
       </Swiper>
     </div>
