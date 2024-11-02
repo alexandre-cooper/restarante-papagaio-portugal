@@ -102,7 +102,7 @@ const Gallery = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="overflow-hidden rounded-3xl">
                   <Image
-                    src="/images/Gallery/bacalhau.jpg"
+                    src="/images/Gallery/bacalhau-1.png"
                     alt="tripas"
                     width={500}
                     height={405}
@@ -118,21 +118,32 @@ const Gallery = () => {
                     className="inner-img"
                   />{" "}
                 </div>
-                <Image
-                  src="/images/Gallery/travessa-gambas.png"
-                  alt="gambas"
-                  width={300}
-                  height={405}
-                  className="inner-img"
-                />
+                <div className="row-span-1 overflow-hidden rounded-3xl">
+                  <Image
+                    src="/images/Gallery/travessa-gambas-1.png"
+                    alt="gambas"
+                    width={700}
+                    height={405}
+                    className="inner-img"
+                  />
+                </div>
+                <div className="row-span-1 overflow-hidden rounded-3xl">
+                  <Image
+                    src="/images/Gallery/peixe-3.png"
+                    alt="gambas"
+                    width={700}
+                    height={405}
+                    className="inner-img"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-          Sobremesas
-        </h3>
-        <ImageCarousel />
+
+        <div className="flex items-center justify-center my-16">
+          <ImageCarousel />
+        </div>
       </div>
     </div>
   );
