@@ -26,7 +26,7 @@ const ImageCarousel = () => {
             {
               src: "/images/Sobremesa/sobremesa-1.png",
               alt: "francesinha",
-              title: "Musse",
+              title: "Baba de Camelo",
             },
             {
               src: "/images/Sobremesa/sobremesa-2.png",
